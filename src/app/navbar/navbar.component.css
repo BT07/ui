@@ -1,0 +1,73 @@
+/*navbar container*/
+.idnavbar{
+    overflow: hidden;
+    background-color: black;
+    font-family: Arial;
+}
+
+/*title*/
+.titlenavbar{
+    color: azure;
+    font-size: 18px;
+}
+.idnavbar a{
+    float: right;
+    font-size: 16px;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*dropdown-container*/
+.dropdown
+{
+    float: right;
+    overflow: hidden;
+}
+
+/*dropdown button*/
+.dropdown .dropbutton{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: azure;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/*hover effect*/
+.idnavbar a:hover,.dropdown:hover .dropdownbutton{
+ background-color: crimson;
+}
+
+/*drop-down content hidden by default*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: springgreen;
+    min-width: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/*inside dropdown*/
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/*hover for drpdown*/
+.dropdown-content a:hover{
+    background-color:white;
+}
+
+/*show dropdown menu on hover*/
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}

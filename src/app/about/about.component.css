@@ -1,0 +1,13 @@
+
+#about{
+    height: 100%;
+    width:100%;
+    text-align: center;
+    background-color: cadetblue;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+.about p{
+    background-origin: 10px;
+}

@@ -1,0 +1,25 @@
+/*table border*/
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left:25%;
+  } 
+  
+  th,td {
+    border: 1px solid black;
+  }
+  
+  table.x {
+    table-layout: fixed;
+    width: 70%;
+    text-align: center;
+    box-align: center;
+  }
+
+  /* subtitle:transaction details*/
+.title5
+{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+}
